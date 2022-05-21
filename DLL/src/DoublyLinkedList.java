@@ -21,7 +21,7 @@ public class DoublyLinkedList {
     public void insertLast(int data) {
         if (isEmpty()) {
             insertAtStart(data);
-            
+            return;
         }
         Node lastNode = null;
         while (true) {
