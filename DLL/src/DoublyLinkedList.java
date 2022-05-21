@@ -12,7 +12,10 @@ public class DoublyLinkedList {
     }
 
     public void insertAtStart(int data) {
-        
+        if (isEmpty()) {
+            insertFirst(data);
+            return;
+        }
         Node current = head;
         head = new Node(data);
         current.previous = head;
