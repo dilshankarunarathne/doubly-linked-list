@@ -8,7 +8,7 @@ public class DoublyLinkedList {
     }
 
     public boolean isEmpty() {
-        // Code goes here...
+        
     }
 
     public void insertAtStart() {
