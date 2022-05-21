@@ -13,7 +13,7 @@ public class DoublyLinkedList {
 
     public void insertAtStart(int data) {
         Node current = head;
-        head = new Node(data)
+        head = new Node(data);
     }
 
     public void insertLast() {
