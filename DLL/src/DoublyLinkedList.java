@@ -11,7 +11,7 @@ public class DoublyLinkedList {
         return size==0;
     }
 
-    public void insertAtStart() {
+    public void insertAtStart(int data) {
         Node current = head;
         head = new Node()
     }
