@@ -18,7 +18,7 @@ public class DoublyLinkedList {
         head.next = current;
     }
 
-    public void insertLast() {
+    public void insertLast(int data) {
         if (isEmpty()) {
 
         }
