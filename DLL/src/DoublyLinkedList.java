@@ -12,7 +12,7 @@ public class DoublyLinkedList {
     }
 
     private void insertFirst(int data) {
-        head = 
+        head = new Node()
     }
 
     public void insertAtStart(int data) {
