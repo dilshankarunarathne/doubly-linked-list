@@ -30,7 +30,7 @@ public class DoublyLinkedList {
                 break;
             }
         }
-        lastNode.next = new 
+        lastNode.next = new Node(data)
     }
 
     public void insertAt() {
