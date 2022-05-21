@@ -19,7 +19,7 @@ public class DoublyLinkedList {
     }
 
     public void insertLast() {
-        Node lastNode 
+        Node lastNode = 
     }
 
     public void insertAt() {
