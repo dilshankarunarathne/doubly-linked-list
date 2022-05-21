@@ -12,7 +12,7 @@ public class DoublyLinkedList {
     }
 
     private void insertFirst(int data) {
-
+        
     }
 
     public void insertAtStart(int data) {
