@@ -19,7 +19,7 @@ public class DoublyLinkedList {
     }
 
     public void insertLast() {
-        if ()
+        if (isEmpty())
         Node lastNode = null;
         while (true) {
             lastNode = head.next;
