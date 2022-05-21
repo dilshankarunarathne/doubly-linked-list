@@ -22,7 +22,7 @@ public class DoublyLinkedList {
         Node lastNode = null;
         while (true) {
             lastNode = head.next;
-            if (lastNode.next)
+            if (lastNode.next == null)
         }
     }
 
