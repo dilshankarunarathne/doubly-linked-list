@@ -40,6 +40,6 @@ public class DoublyLinkedList {
     }
 
     public void show() {
-        // Code goes here...
+        
     }
 }
