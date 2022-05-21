@@ -19,8 +19,8 @@ public class DoublyLinkedList {
     }
 
     public void insertLast() {
-        if (isEmpty()){
-            
+        if (isEmpty()) {
+
         }
         Node lastNode = null;
         while (true) {
