@@ -14,7 +14,7 @@ public class DoublyLinkedList {
     public void insertAtStart(int data) {
         Node current = head;
         head = new Node(data);
-        current.previous = 
+        current.previous = head;
     }
 
     public void insertLast() {
