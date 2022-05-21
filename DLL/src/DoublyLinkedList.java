@@ -19,6 +19,7 @@ public class DoublyLinkedList {
     }
 
     public void insertLast() {
+        
         Node lastNode = null;
         while (true) {
             lastNode = head.next;
@@ -26,6 +27,7 @@ public class DoublyLinkedList {
                 break;
             }
         }
+
     }
 
     public void insertAt() {
