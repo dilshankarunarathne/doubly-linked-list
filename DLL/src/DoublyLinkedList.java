@@ -20,7 +20,7 @@ public class DoublyLinkedList {
 
     public void insertLast(int data) {
         if (isEmpty()) {
-            insertAtStart(data);
+            insertFirst(data);
             return;
         }
         Node lastNode = null;
