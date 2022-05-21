@@ -47,8 +47,6 @@ public class DoublyLinkedList {
 		}
 		System.out.println("Nodes of doubly linked list: ");
 		while(current != null) {
-			//Prints each node by incrementing the pointer.
-
 			System.out.print(current.data + " ");
 			current = current.next;
 		}
