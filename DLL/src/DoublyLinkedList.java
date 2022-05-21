@@ -31,7 +31,7 @@ public class DoublyLinkedList {
             }
         }
         lastNode.next = new Node(data);
-        lastNode.next.previous
+        lastNode.next.previous = lastNode;
     }
 
     public void insertAt() {
