@@ -45,7 +45,6 @@ public class DoublyLinkedList {
 			System.out.println("List is empty");
 			return;
 		}
-		System.out.println(" ");
 		while(current != null) {
 			System.out.print(current.data + " ");
 			current = current.next;
