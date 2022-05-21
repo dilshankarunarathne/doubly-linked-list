@@ -40,7 +40,6 @@ public class DoublyLinkedList {
     }
 
     public void show() {
-		//Node current will point to head
 		Node current = head;
 		if(head == null) {
 			System.out.println("List is empty");
