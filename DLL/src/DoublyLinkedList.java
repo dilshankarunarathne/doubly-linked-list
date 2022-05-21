@@ -11,7 +11,7 @@ public class DoublyLinkedList {
         return size==0;
     }
 
-    private insertFirst(int data) {
+    private void insertFirst(int data) {
 
     }
 
