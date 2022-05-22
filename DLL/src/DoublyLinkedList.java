@@ -99,7 +99,11 @@ public class DoublyLinkedList {
     }
 
     public void deleteAt(int position) {
-        if (position<1 || position>size) {
+        if (position<0) {
+//            insertAt(data, size + position);  // do nothing!
+            return;
+        }
+        if (position>size) {
             throw new IndexOutOfBoundsException("position " + position + "is out of bounds.");
         }
         Node currentNode = head;
