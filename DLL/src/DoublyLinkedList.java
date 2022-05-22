@@ -72,7 +72,7 @@ public class DoublyLinkedList {
         int currentPos = 1;
         while (true) {
             if(currentPos == size) {
-                lastNode.previous.next 
+                lastNode.previous.next = null;
             }
         }
     }
