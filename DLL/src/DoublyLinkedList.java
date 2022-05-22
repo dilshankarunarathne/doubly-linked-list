@@ -53,7 +53,7 @@ public class DoublyLinkedList {
         if (position>size) {
             throw new IndexOutOfBoundsException("position " + position + "is out of bounds.");
         }
-        if (position == 1) {
+        if (position == 0) {
             Node prevHead = head;
             head = new Node(data);
             prevHead.previous = head;
