@@ -68,7 +68,7 @@ public class DoublyLinkedList {
     }
 
     public void deleteLast() {
-        Node lastNode = 
+        Node lastNode = head;
         while (true) {
 
         }
