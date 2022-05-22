@@ -49,7 +49,7 @@ public class DoublyLinkedList {
         }
         if (position == 1) {
             Node prevHead = head;
-            head = new
+            head = new Node(data);
         }
         Node currentNode = head;
         int currentPos = 1;
