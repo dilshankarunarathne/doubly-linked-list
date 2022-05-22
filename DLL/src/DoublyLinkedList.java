@@ -43,7 +43,7 @@ public class DoublyLinkedList {
     }
 
     public void insertAt(int data, int index) {
-        
+        for (int i=0)
     }
 
     public void deleteFirst() {
