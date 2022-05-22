@@ -50,7 +50,7 @@ public class DoublyLinkedList {
                 Node newNode = new Node(data);
                 nodeAtPos.previous.next = newNode;
                 newNode.previous = nodeAtPos.previous;
-                newNode.next = 
+                newNode.next = nodeAtPos;
             }
         }
     }
