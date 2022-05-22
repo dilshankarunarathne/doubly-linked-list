@@ -98,18 +98,18 @@ public class DoublyLinkedList {
         }
     }
 
-    public void deleteAt(int position) {
-        if (position<0) {
+    public void deleteAt(int index) {
+        if (index<0) {
             // do nothing!
             return;
         }
-        if (position>size) {
-            throw new IndexOutOfBoundsException("position " + position + "is out of bounds.");
+        if (index>size) {
+            throw new IndexOutOfBoundsException("index " + index + "is out of bounds.");
         }
         Node currentNode = head;
         int currentPos = 0;
         while (true) {
-            if (currentPos == position) {
+            if (currentPos == index) {
                 currentNode.previous.next = currentNode.next;
                 currentNode.next.previous = currentNode.previous;
                 size--;
