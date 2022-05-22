@@ -59,7 +59,7 @@ public class DoublyLinkedList {
     }
 
     public void countNodes() {
-        // Code goes here...
+        
     }
 
     public void show() {
