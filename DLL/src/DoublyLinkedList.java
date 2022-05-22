@@ -71,7 +71,9 @@ public class DoublyLinkedList {
         Node lastNode = head;
         int currentPos = 1;
         while (true) {
-            if(currentPos == size) 
+            if(currentPos == size) {
+                
+            }
         }
     }
 
