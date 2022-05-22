@@ -34,7 +34,6 @@ public class DoublyLinkedList {
         }
         Node lastNode = head;
         while (true) {
-            lastNode = head.next;
             if (lastNode.next == null) {
                 break;
             }
