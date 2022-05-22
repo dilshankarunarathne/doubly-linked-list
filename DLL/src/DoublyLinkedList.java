@@ -47,7 +47,7 @@ public class DoublyLinkedList {
         int currentPos = 1;
         while (true) {
             if (index<1 || index>size) {
-                
+                throw new IndexOutOfBoundsException("position " )
             }
             if (currentPos == index) {
                 Node newNode = new Node(data);
