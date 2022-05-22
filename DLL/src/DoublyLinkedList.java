@@ -32,7 +32,7 @@ public class DoublyLinkedList {
             insertFirst(data);
             return;
         }
-        Node lastNode = null;
+        Node lastNode = head;
         while (true) {
             lastNode = head.next;
             if (lastNode.next == null) {
