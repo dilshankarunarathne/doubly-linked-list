@@ -46,7 +46,7 @@ public class DoublyLinkedList {
     }
 
     public void insertAt(int data, int position) {
-        if (position<1) {
+        if (position<0) {
             insertAt(data, size + position);
             return;
         }
