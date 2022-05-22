@@ -42,14 +42,14 @@ public class DoublyLinkedList {
         lastNode.next.previous = lastNode;
     }
 
-    public void insertAt(int data, int index) {
-        if (index<1 || index>size) {
-            throw new IndexOutOfBoundsException("position " + index + "is out of bounds.");
+    public void insertAt(int data, int position) {
+        if (position<1 || position>size) {
+            throw new IndexOutOfBoundsException("position " + position + "is out of bounds.");
         }
         Node nodeAtPos = head;
         int currentPos = 1;
         while (true) {
-            if (currentPos == index) {
+            if (currentPos == position) {
                 Node newNode = new Node(data);
                 nodeAtPos.previous.next = newNode;
                 newNode.previous = nodeAtPos.previous;
