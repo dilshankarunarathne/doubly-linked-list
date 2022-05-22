@@ -84,7 +84,7 @@ public class DoublyLinkedList {
         if (position<1 || position>size) {
             throw new IndexOutOfBoundsException("position " + position + "is out of bounds.");
         }
-        
+        Node nodeAtPos = head;
     }
 
     public void countNodes() {
