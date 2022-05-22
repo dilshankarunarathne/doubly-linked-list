@@ -51,6 +51,7 @@ public class DoublyLinkedList {
             insertFirst(data);
             return;
         }
+        if ()
         Node currentNode = head;
         int currentPos = 1;
         while (true) {
