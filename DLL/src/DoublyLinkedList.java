@@ -100,5 +100,6 @@ public class DoublyLinkedList {
 			System.out.print(current.data + " ");
 			current = current.next;
 		}
+        System.out.println();
 	}
 }
