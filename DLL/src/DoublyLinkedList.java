@@ -37,7 +37,7 @@ public class DoublyLinkedList {
             if (lastNode.next == null) {
                 break;
             }
-            lastNode = 
+            lastNode = lastNode.next;
         }
         lastNode.next = new Node(data);
         lastNode.next.previous = lastNode;
