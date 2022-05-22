@@ -1,5 +1,4 @@
-# CO1212 - Assignment 7 
-### Doubly Linked List
+# CO1212 - Assignment 7 - Doubly Linked List
 
 ## Stupid things...
 1. **Q** - Is it the index ? Or is it the position ?  
