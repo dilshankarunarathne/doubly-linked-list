@@ -42,6 +42,7 @@ public class DoublyLinkedList {
         }
         lastNode.next = new Node(data);
         lastNode.next.previous = lastNode;
+        size++;
     }
 
     public void insertAt(int data, int position) {
