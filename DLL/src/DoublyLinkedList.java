@@ -88,11 +88,7 @@ public class DoublyLinkedList {
         int currentPos = 1;
         while (true) {
             if (currentPos == position) {
-                Node newNode = new Node(data);
-                nodeAtPos.previous.next = newNode;
-                newNode.previous = nodeAtPos.previous;
-                newNode.next = nodeAtPos;
-                nodeAtPos.previous = newNode;
+                
                 return;
             }
             nodeAtPos = nodeAtPos.next;
