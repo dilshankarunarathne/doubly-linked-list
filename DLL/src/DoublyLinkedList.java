@@ -63,7 +63,7 @@ public class DoublyLinkedList {
     }
 
     public void deleteFirst() {
-        
+        head = 
     }
 
     public void deleteLast() {
