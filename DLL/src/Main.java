@@ -12,9 +12,6 @@ public class Main {
         list.insertLast(2);
         list.insertAtStart(9);
         list.insertAtStart(11);
-
-        list.show();
-
         list.insertAt(21, 1);
         list.insertAt(27, 3);
         list.insertLast(56);
