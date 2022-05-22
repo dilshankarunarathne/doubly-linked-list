@@ -47,7 +47,7 @@ public class DoublyLinkedList {
 
     public void insertAt(int data, int position) {
         if (position<1) {
-
+            
         }
         if (position>size) {
             throw new IndexOutOfBoundsException("position " + position + "is out of bounds.");
