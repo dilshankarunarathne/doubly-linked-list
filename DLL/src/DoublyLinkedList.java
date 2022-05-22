@@ -89,7 +89,7 @@ public class DoublyLinkedList {
         while (true) {
             if (currentPos == position) {
                 nodeAtPos.previous.next = nodeAtPos.next;
-                nodeAtPos.next.previous = 
+                nodeAtPos.next.previous = nodeAtPos.previous;
                 return;
             }
             nodeAtPos = nodeAtPos.next;
