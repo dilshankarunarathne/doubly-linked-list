@@ -76,6 +76,7 @@ public class DoublyLinkedList {
                 return;
             }
             lastNode = lastNode.next;
+            currentPos++;
         }
     }
 
