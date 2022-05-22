@@ -47,7 +47,7 @@ public class DoublyLinkedList {
         int currentPos = 1;
         while (true) {
             if (currentPos == index) {
-
+                
             }
         }
     }
