@@ -77,6 +77,7 @@ public class DoublyLinkedList {
     public void deleteFirst() {
         head = head.next;
         head.previous = null;
+        size--;
     }
 
     public void deleteLast() {
