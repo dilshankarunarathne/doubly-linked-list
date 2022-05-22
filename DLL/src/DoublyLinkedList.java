@@ -104,6 +104,7 @@ public class DoublyLinkedList {
             if (currentPos == position) {
                 currentNode.previous.next = currentNode.next;
                 currentNode.next.previous = currentNode.previous;
+                size--;
                 return;
             }
             currentNode = currentNode.next;
