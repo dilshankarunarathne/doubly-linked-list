@@ -52,6 +52,7 @@ public class DoublyLinkedList {
             head = new Node(data);
             prevHead.previous = head;
             head.next = prevHead;
+            return;
         }
         Node currentNode = head;
         int currentPos = 1;
