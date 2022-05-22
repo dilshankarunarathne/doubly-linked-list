@@ -42,7 +42,7 @@ public class DoublyLinkedList {
         lastNode.next.previous = lastNode;
     }
 
-    public void insertAt() {
+    public void insertAt(int data) {
         // Code goes here...
     }
 
