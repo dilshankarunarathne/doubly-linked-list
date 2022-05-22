@@ -54,7 +54,7 @@
       <updated>1653129800640</updated>
       <workItem from="1653129804274" duration="1620000" />
       <workItem from="1653189528487" duration="673000" />
-      <workItem from="1653198326718" duration="1294000" />
+      <workItem from="1653198326718" duration="1609000" />
     </task>
     <servers />
   </component>
@@ -73,14 +73,10 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/DLL/src/Main.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Node" memberName="previous" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
