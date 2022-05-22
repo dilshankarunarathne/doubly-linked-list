@@ -48,8 +48,7 @@ public class DoublyLinkedList {
             throw new IndexOutOfBoundsException("position " + position + "is out of bounds.");
         }
         if (position == 1) {
-            insertFirst(data);
-            return;
+            Node prevHead = head;
         }
         Node currentNode = head;
         int currentPos = 1;
