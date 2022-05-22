@@ -59,7 +59,7 @@ public class DoublyLinkedList {
     }
 
     public void countNodes() {
-        System.out.println();
+        System.out.println(size);
     }
 
     public void show() {
