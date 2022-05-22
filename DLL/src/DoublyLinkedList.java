@@ -44,6 +44,7 @@ public class DoublyLinkedList {
 
     public void insertAt(int data, int index) {
         Node nodeAtPos = head;
+        int currentPos = 1;
         while (true) {
 
         }
