@@ -84,15 +84,15 @@ public class DoublyLinkedList {
         if (position<1 || position>size) {
             throw new IndexOutOfBoundsException("position " + position + "is out of bounds.");
         }
-        Node nodeAtPos = head;
+        Node currentNode = head;
         int currentPos = 1;
         while (true) {
             if (currentPos == position) {
-                nodeAtPos.previous.next = nodeAtPos.next;
-                nodeAtPos.next.previous = nodeAtPos.previous;
+                currentNode.previous.next = currentNode.next;
+                currentNode.next.previous = currentNode.previous;
                 return;
             }
-            nodeAtPos = nodeAtPos.next;
+            currentNode = currentNode.next;
             currentPos++;
         }
     }
