@@ -107,7 +107,7 @@ public class DoublyLinkedList {
             throw new IndexOutOfBoundsException("position " + position + "is out of bounds.");
         }
         Node currentNode = head;
-        int currentPos = 1;
+        int currentPos = 0;
         while (true) {
             if (currentPos == position) {
                 currentNode.previous.next = currentNode.next;
