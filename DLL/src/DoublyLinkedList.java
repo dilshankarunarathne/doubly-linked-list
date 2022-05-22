@@ -54,6 +54,7 @@ public class DoublyLinkedList {
                 nodeAtPos.previous = newNode;
                 return;
             }
+            nodeAtPos = nodeAtPos.next;
         }
     }
 
