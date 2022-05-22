@@ -62,7 +62,7 @@ public class DoublyLinkedList {
             return;
         }
         Node currentNode = head;
-        int currentPos = 1;
+        int currentPos = 0;
         while (true) {
             if (currentPos == position) {
                 Node newNode = new Node(data);
