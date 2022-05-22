@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5d2d777b-38b6-4e99-9d5b-b5a88722acf7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/DLL/src/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DLL/src/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DLL/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/DLL/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
       <updated>1653129800640</updated>
       <workItem from="1653129804274" duration="1620000" />
       <workItem from="1653189528487" duration="673000" />
-      <workItem from="1653198326718" duration="1609000" />
+      <workItem from="1653198326718" duration="1990000" />
     </task>
     <servers />
   </component>
@@ -73,6 +74,15 @@
     </option>
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DLL/src/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Node" memberName="previous" />
