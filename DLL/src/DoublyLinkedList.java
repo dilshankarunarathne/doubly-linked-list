@@ -75,7 +75,7 @@ public class DoublyLinkedList {
                 lastNode.previous.next = null;
                 return;
             }
-            lastNode 
+            lastNode = lastNode.next;
         }
     }
 
