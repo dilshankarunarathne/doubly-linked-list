@@ -68,8 +68,9 @@ public class DoublyLinkedList {
     }
 
     public void deleteLast() {
+        Node last
         while (true) {
-            
+
         }
     }
 
