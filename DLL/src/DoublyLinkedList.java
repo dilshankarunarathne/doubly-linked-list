@@ -45,15 +45,15 @@ public class DoublyLinkedList {
         size++;
     }
 
-    public void insertAt(int data, int position) {
-        if (position<0) {
-//            insertAt(data, size + position);  // do nothing!
+    public void insertAt(int data, int index) {
+        if (index<0) {
+//            insertAt(data, size + index);  // do nothing!
             return;
         }
-        if (position>size) {
-            throw new IndexOutOfBoundsException("position " + position + "is out of bounds.");
+        if (index>size) {
+            throw new IndexOutOfBoundsException("index " + index + "is out of bounds.");
         }
-        if (position == 0) {
+        if (index == 0) {
             Node prevHead = head;
             head = new Node(data);
             prevHead.previous = head;
@@ -64,7 +64,7 @@ public class DoublyLinkedList {
         Node currentNode = head;
         int currentPos = 0;
         while (true) {
-            if (currentPos == position) {
+            if (currentPos == index) {
                 Node newNode = new Node(data);
                 currentNode.previous.next = newNode;
                 newNode.previous = currentNode.previous;
