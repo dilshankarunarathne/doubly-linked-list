@@ -3,5 +3,5 @@
 
 ## Stupid things...
 1. **Q** - Is it the index ? Or is it the position ?  
-    **A** - Apparently, it's the index.
+   **A** - Apparently, it's the index.
 2. What are we supposed to do, when the user enters the index below zero?
